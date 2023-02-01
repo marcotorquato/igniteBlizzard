@@ -163,7 +163,7 @@ export function Hero() {
               />
 
               <Styled.GameTrailerWrapper>
-                <p>Assita o trailer</p>
+                <p>Watch trailer</p>
                 <Styled.GameTrailer>
                   <Image
                     src={game.trailer.thumbnail.src}

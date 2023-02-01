@@ -27,7 +27,7 @@ export function LoginModal() {
             })}
           >
             <Image src={UserIcon} alt="Create account" width={19} height={19} />
-            Logar
+            Login
           </button>
         </Dialog.Trigger>
         <Dialog.Portal>
