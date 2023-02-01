@@ -60,7 +60,7 @@ export function Hero() {
         background: hearthstoneBg.src,
         heading: 'New Hearthstone expansion pack',
         text: 'The Horde and Alliance met in Alterac Valley to fight',
-        buttonText: 'Book now on pre-sale',
+        buttonText: 'Pre-sale',
         trailer: {
           gif: hearthstoneGif,
           thumbnail: hearthstoneThumb,
@@ -72,7 +72,7 @@ export function Hero() {
         background: wowBg.src,
         heading: 'Brave the Shadowlands in Shadowlands! ',
         text: 'What lies beyond the world you know?',
-        buttonText: 'Book on pre-sale',
+        buttonText: 'Pre-sale',
         trailer: {
           gif: wowGif,
           thumbnail: wowThumb,
@@ -180,7 +180,7 @@ export function Hero() {
                     className="gif"
                   />
 
-                  <button aria-label="Assistir trailer">
+                  <button aria-label="Watch trailer">
                     <Image src={PlayIcon} alt="" />
                   </button>
                 </Styled.GameTrailer>

@@ -83,9 +83,9 @@ export function Header() {
             />
           </Styled.NavContainer>
           <Styled.ButtonsWrap ref={buttonsRef}>
-            <Button variant="outlined">Criar Conta</Button>
+            <Button variant="outlined">Create account</Button>
             <LoginModal />
-            <Styled.MenuHamburguer aria-label="Open Menu">
+            <Styled.MenuHamburguer aria-label="Open menu">
               <div className="menu-hamburguer"></div>
             </Styled.MenuHamburguer>
           </Styled.ButtonsWrap>

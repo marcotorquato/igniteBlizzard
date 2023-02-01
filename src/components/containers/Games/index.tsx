@@ -42,28 +42,28 @@ export function Games({ games }: GamesProps) {
           <div className="platform">
             <button
               className={filter === Platform.BLIZZARD ? 'active' : ''}
-              aria-label="Filtrar jogos Blizzard"
+              aria-label="Filter game Blizzard"
               onClick={() => selectFilter(Platform.BLIZZARD)}
             >
               <Image src={Blizzard} alt="Blizzard" />
             </button>
             <button
               className={filter === Platform.NITENDO ? 'active' : ''}
-              aria-label="Filtrar jogos Nitendo"
+              aria-label="Filter game Nitendo"
               onClick={() => selectFilter(Platform.NITENDO)}
             >
               <Image src={Nitendo} alt="Nitendo" />
             </button>
             <button
               className={filter === Platform.XBOX ? 'active' : ''}
-              aria-label="Filtrar jogos Xbox"
+              aria-label="Filter game Xbox"
               onClick={() => selectFilter(Platform.XBOX)}
             >
               <Image src={Xbox} alt="Xbox" />
             </button>
             <button
               className={filter === Platform.PLAYSTATION ? 'active' : ''}
-              aria-label="Filtrar jogos Playstation"
+              aria-label="Filter game Playstation"
               onClick={() => selectFilter(Platform.PLAYSTATION)}
             >
               <Image src={Playstation} alt="Playstation" />

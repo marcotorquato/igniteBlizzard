@@ -102,7 +102,7 @@ export function LoginModal() {
                   </IconButton>
                 </LoginTypes>
                 <p>
-                  <a href="#">Create an account</a> Battle.net Free
+                  <a href="#">Create account</a> Battle.net Free
                 </p>
                 <a href="#">Can't log in?</a>
               </ConnectionTypes>

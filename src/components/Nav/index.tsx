@@ -23,27 +23,27 @@ const Nav = forwardRef<null, NavProps>(
     const Links: ILinks[] = useMemo(
       () => [
         {
-          label: 'Jogos',
+          label: 'Games',
           isDropdown: true,
           id: 'games',
         },
         {
-          label: 'Esportes',
+          label: 'Sports',
           isDropdown: true,
           id: 'sport',
         },
         {
-          label: 'Loja',
+          label: 'Store',
           isDropdown: false,
           href: '/',
         },
         {
-          label: 'Notícias',
+          label: 'News',
           isDropdown: false,
           href: '/',
         },
         {
-          label: 'Suporte',
+          label: 'Help',
           isDropdown: false,
           href: '/',
         },
