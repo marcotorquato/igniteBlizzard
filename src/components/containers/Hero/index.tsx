@@ -70,7 +70,7 @@ export function Hero() {
       {
         id: 'wow',
         background: wowBg.src,
-        heading: 'Brave the Shadowlands in Shadowlands! ',
+        heading: 'Brave the Shadowlands! ',
         text: 'What lies beyond the world you know?',
         buttonText: 'Pre-sale',
         trailer: {
